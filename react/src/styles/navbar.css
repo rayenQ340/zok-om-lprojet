@@ -1,0 +1,206 @@
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 113px;
+  left: 0;
+  top: 1px;
+  background: rgba(0, 0, 0, 0.23);
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightside button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}
+
+.rightside {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 2%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.N {
+  position: absolute;
+  width: 22px;
+  height: 0;
+  left: 32%;
+  top: 72px;
+  background: linear-gradient(90deg, rgba(255, 192, 0, 1), rgba(255, 138, 0, 1));
+}
+
+#h {
+  position: absolute;
+  width: 41px;
+  height: 18px;
+  left: 25%;
+  top: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 18px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background: linear-gradient(253.58deg, #FFC000 95.79%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#sb {
+  position: absolute;
+  width: 74px;
+  height: 18px;
+  left: 57%;
+  top: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 18px;
+  background: linear-gradient(253.58deg, #FFC000 95.79%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#pro {
+  position: absolute;
+  width: 61px;
+  height: 18px;
+  left: 32%;
+  top: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 18px;
+  background: linear-gradient(253.58deg, #FFC000 95.79%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#pri {
+  position: absolute;
+  width: 47px;
+  height: 18px;
+  left: 40%;
+  top: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 18px;
+  background: linear-gradient(253.58deg, #FFC000 95.79%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#as {
+  position: absolute;
+  width: 62px;
+  height: 18px;
+  left: 47%;
+  top: 46px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 18px;
+  background: linear-gradient(253.58deg, #FFC000 95.79%, #FF8A00 95.8%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Styling for links */
+div a {
+  color: #F7BF47;
+  text-decoration: none;
+}
+
+div a:hover {
+  text-decoration: underline;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  right: 8%;
+  top: 15px;
+}
+
+.nav-button {
+  width: 160px;
+  height: 56px;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+  border-radius: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+
+
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.leftside {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+
+#logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100%;
+}
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ul .nav-links{position: absolute;
+  width: 488px;
+  height: 26px;
+  left: 503px;
+  top: 46px;}

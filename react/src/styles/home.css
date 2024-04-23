@@ -1,0 +1,77 @@
+
+.text {
+  position: absolute;
+  width: 534px;
+  height: 233.17px;
+  left: 183px;
+  top: 200px;
+  font-family: 'Aharoni';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 158.34%;
+  color: #FFF7DF;
+}
+
+.text-container p {
+
+  
+  
+  position: absolute;
+  width: 444px;
+  height: 81.26px;
+  left: 183px;
+  top: 416.71px;
+  
+  font-family: 'Aharoni';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 177.3%;
+  /* or 32px */
+  
+  
+  color: #FFF7DF;
+  
+  
+}
+.custom-button4 {
+  position: absolute;
+  width: 160px;
+  height: 65.95px;
+  left: 320px;
+  top: 520.34px;
+  background: #FFF7DF;
+  border-radius: 100px;
+  align-items: center;
+  /* Add any additional styles as needed */
+}
+
+.button-text99 {
+
+width: 72px;
+height: 20.02px;
+left: 227px;
+top: 543.9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFC000;
+}
+.home_body {
+  background-image: url('../assets/ann.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  float: right;
+  opacity: 1;
+  height: 110vh;
+}
+.home-container{width: 100%;
+  height:100%;
+}

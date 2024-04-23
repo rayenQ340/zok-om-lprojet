@@ -1,0 +1,279 @@
+.TopBarBg {
+    width: 90%;
+    height: 45px; /* Adjust the height as needed */
+    background: #ffffff; /* Set the background color to #F7F9FA */
+    margin: 10px auto; /* Add margin to center the search bar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5%;
+}
+.bg {
+    width: 1540px;
+    height: 900px;
+    position: relative;
+    background: #F7F9FA;
+    border-radius: 30px;
+   
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bg {
+      width: 90%;
+      height: auto;
+      border-radius: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bg {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top:-140%;
+    margin-left:13%;
+  }
+  
+  .emo{   width: 2.54%; /* (30 / 1184) * 100 */
+    height: 50%; /* (30 / 60) * 100 */
+    margin-bottom: 141%; /* (15 / 60) * 100 */
+    margin-left: 2px;}
+  .notif{   width: 2.54%; /* (30 / 1184) * 100 */
+    height: 50%; /* (30 / 60) * 100 */
+    margin-bottom: 141%; /* (15 / 60) * 100 */
+    margin-left: 85%;}
+  .pers {
+    width: 2.54%; /* (30 / 1184) * 100 */
+    height: 50%; /* (30 / 60) * 100 */
+    margin-bottom: 141%; /* (15 / 60) * 100 */
+    margin-left: 8px;
+  }
+  .notif {
+    width: 2.54vw; /* Adjust the percentage value as needed */
+    height: 2.54vw; /* Adjust the percentage value as needed */
+    top: 1.27vw; /* Adjust the percentage value as needed */
+    left: 90vw; /* Adjust the percentage value as needed */
+  }
+  
+  .pers {
+    width: 2.54vw; /* Adjust the percentage value as needed */
+    height: 2.54vw; /* Adjust the percentage value as needed */
+    top: 1.18vw; /* Adjust the percentage value as needed */
+    left: 95vw; /* Adjust the percentage value as needed */
+  }
+  .emo {
+    width: 2.54vw; /* Adjust the percentage value as needed */
+    height: 2.54vw; /* Adjust the percentage value as needed */
+    top: 1.18vw; /* Adjust the percentage value as needed */
+    left: 95vw; /* Adjust the percentage value as needed */
+  }
+  .card{width: 769px;
+    height: 217px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #D8D8D8;;
+    background: #FFF;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.14);
+margin-top:-63%;
+margin-left:17%;}
+.locationn{width:20%;
+    height:20%;
+    margin-top:3.5%;
+    margin-left:3%;}
+  .kiy{margin-top:-5%;
+  margin-left:9%;
+  color: var(--000, #000);
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;}
+  .iconn {
+    position: absolute; /* This allows you to position the icon relative to the card */
+    top: 18%; /* Adjust the top position as needed */
+    right: 75%; /* Adjust the right position as needed */
+    /* Add any other styles you want for the icon container */
+  }
+  
+  /* You can also apply styles to the icon itself if needed */
+  .iconn img {
+    width: 100%; /* Adjust the width of the icon image */
+    height: 100%; /* Adjust the height of the icon image */
+    /* Add any other styles you want for the icon image */
+  }
+  .noww{  font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50%;
+    height: 30%;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+
+    .xx{ font-family: ABeeZee;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: 28%;
+      margin-top: 5%;}
+    .mi{ font-family: ABeeZee;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-right: -35%;
+      margin-top: -15%;}
+      .todayy{font-family: ABeeZee;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 28%;
+        margin-top: -2.5%;}
+        .cl{
+          width: 250px;
+          height: 217px;
+          margin-top: -14%;
+          margin-left: 53%;
+          background: linear-gradient(135deg, rgba(250, 250, 250, 1), rgba(255, 192, 0, 1));
+        border-radius: 20%;}
+        .iconnn{    position: absolute; /* This allows you to position the icon relative to the card */
+          top: 25%; /* Adjust the top position as needed */
+          right: 39%; /* Adjust the right position as needed */}
+        .nowww{ width: 77.27px;
+          height: 38.8px;
+          margin-top: 10%;
+          margin-left: 24%;
+          font-family: Montserrat;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 43.88px;
+          text-align: center;
+          color: rgba(255, 255, 255, 1);}
+          .sunni{width: 353px;
+            height: 144px;
+            margin-top: 5%;
+            margin-left: 19%;
+            border-radius: 30px;
+            ;background: linear-gradient(135deg, rgba(252, 156, 84, 1), rgba(252, 156, 84, 0.16));}
+            .suni{color: #FFF;
+              font-family: ABeeZee;
+              font-size: 50px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              letter-spacing: 1.785px;
+            margin-left:2%;}
+            .sunns{width: 353px;
+              height: 144px;
+              border-radius: 30px;
+              width: 353px;
+            height: 144px;
+            margin-top: -13%;
+            margin-left: 49%;
+            border-radius: 30px;
+            background: linear-gradient(180deg, #F27A54 0%, #A154F2 100%);
+            }
+            .suns{color: #FFF;
+              font-family: ABeeZee;
+              font-size: 50px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              letter-spacing: 1.785px;
+            margin-left:2%;}
+            /* Add these styles to your CSS file */
+.daily-forecast-table {
+  width: 80%; /* Adjust the width as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 20px;
+  margin-left:17.5%;
+}
+
+.daily-forecast-table tbody tr {
+  border-bottom: 1px solid #ccc; /* Adjust the border style and color as needed */
+}
+
+.daily-forecast-table th,
+.daily-forecast-table td {
+  padding: 10px;
+  text-align: center;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.daily-forecast-table th {
+  background-color: #f0f0f0;
+}
+
+.daily-forecast-table img.weather-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Optional: Style the table header */
+.daily-forecast-table thead {
+  background-color: #333;
+  color: #fff;
+}
+.minnn{color: var(--Red, #EB5757);
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;}
+  .dayyy{color: var(--table_black, #323C47);
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;}
+    .maxxx{color: var(--Red, #EB5757);
+      text-align: center;
+      font-family: ABeeZee;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.14px;}
+      .hum{color: var(--Red, #EB5757);
+        text-align: center;
+        font-family: ABeeZee;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.14px;}
+        .win{color: #2ED47A;
+          text-align: center;
+          font-family: ABeeZee;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.14px;}

@@ -1,0 +1,702 @@
+.logo1 {
+  background-image: url('./images/izoguern.png');
+  position: absolute;
+  width: 181px;
+  height: 60px;
+  left: 20%;
+  top: 100px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+
+.logo2 {
+  background-image: url('./images/Farmalabs.png');
+  position: absolute;
+  width: 316px;
+  height: 114px;
+  left: 17%;
+  top: 130px;
+  font-family: 'Allerta Stencil';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  color: #FFAF08;
+}
+
+.custom-button {
+  position: absolute;
+  width: 400px;
+  height: 50.95px;
+  left: 14%;
+  top: 55%;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  border-radius: 100px;
+  align-items: center;
+  border-color: #efefef25;
+  /* Add any additional styles as needed */
+}
+
+.button-text {
+  width: 50px;
+  height: 10.02px;
+  left: 227px;
+  top: 543.9px;
+  font-family: 'Roboto';
+  font-weight: 70;
+  font-size: 13px;
+  line-height: 10px;
+  color: floralwhite;
+}
+
+.input-password {
+  position: absolute;
+  padding: 10px;
+  left: 10.07%;
+  right: 61.73%;
+  top: 37%;
+  bottom: 56.6%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+}
+
+.input {
+  position: absolute;
+  left: 10.07%;
+  right: 61.73%;
+  top: 28.7%;
+  bottom: 65%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.left-section,
+.right-section {
+  height: 110vh;
+  width: 100%;
+  display: flex;
+}
+
+.left-section {
+  background: #fcf3dae0;
+  float: left;
+  width: 50%;
+}
+
+.right-section3{
+  background-image: url('./images/backimage3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  width: 50%;
+  opacity: 1;
+  height: 110vh;
+}
+.right-section2{
+  background-image: url('./images/backimage2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  width: 50%;
+  opacity: 1;
+  height: 110vh;
+}
+.right-section{
+  background-image: url('./images/backimage1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  width: 50%;
+  opacity: 1;
+  height: 110vh;
+}
+@media (max-width: 768px) {
+  .input_password,
+  .button-text,
+  .input,
+  .input1 {
+    left: 5%;
+  }
+}
+
+.sign {
+  position: absolute;
+  width: 200px;
+  height: 17px;
+  left: 19%;
+  top: 190px;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5C5C5C;
+}
+
+.linkf {
+  position: absolute;
+  width: 168px;
+  height: 15px;
+  left: 27%;
+  top: 49%;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5C5C5C;
+}
+.linky {
+  position: absolute;
+  width: 168px;
+  height: 15px;
+  left: 27%;
+  top: 47%;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5C5C5C;
+}
+
+.linkyy {
+  color: #FF8A00;
+}
+
+.element1 {
+  background-image: url('./images/Element01.png');
+  position: absolute;
+  border-radius: 135px;
+  width: 327.8px;
+  height: 303.38px;
+  left: -200.03px;
+  top: -200px;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  transform: matrix(-0.89, -0.45, -0.45, 0.89, 0, 0);
+}
+
+.vector {
+  background-image: url('./images/Vector.png');
+  position: absolute;
+  width: 50%;
+  left: 33%;
+  height: 70px;
+  top: 15%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.vector1 {
+  background-image: url('./images/Vector1.png');
+  position: absolute;
+  width: 50%;
+  left: 12%;
+  height: 60px;
+  top: 75%;
+  background-repeat: no-repeat;
+}
+
+.vector2 {
+  background-image: url('./images/Vector2.png');
+  position: absolute;
+  width: 100%;
+  left: 14.2%;
+  height: 50px;
+  top: 76%;
+  background-repeat: no-repeat;
+}
+
+.vector3 {
+  background-image: url('./images/Vector3.png');
+  position: absolute;
+  width: 100%;
+  left: 14.6%;
+  height: 50px;
+  top: 77.5%;
+  background-repeat: no-repeat;
+}
+
+.vector4 {
+  background-image: url('./images/Vector4.png');
+  position: absolute;
+  width: 100%;
+  left: 14.65%;
+  height: 100px;
+  top: 78.5%;
+  background-repeat: no-repeat;
+}
+
+.vector5 {
+  background-image: url('./images/Vector4.png');
+  position: absolute;
+  width: 100%;
+  left: 15.2%;
+  height: 100px;
+  top: 78.5%;
+  background-repeat: no-repeat;
+}
+
+.vector6 {
+  background-image: url('./images/Vector6.png');
+  position: absolute;
+  width: 100%;
+  left: 14.8%;
+  height: 100px;
+  top: 78.5%;
+  background-repeat: no-repeat;
+}
+
+.vector7 {
+  background-image: url('./images/Vector7.png');
+  position: absolute;
+  width: 100%;
+  left: 30%;
+  height: 100px;
+  top: 75%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.vector8 {
+  background-image: url('./images/Vector8.png');
+  position: absolute;
+  width: 100%;
+  left: 31%;
+  height: 100px;
+  top: 73%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.vector9 {
+  background-image: url('./images/Vector9.png');
+  position: absolute;
+  width: 100%;
+  left: 21%;
+  height: 100px;
+  top: 90%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.vector10 {
+  background-image: url('./images/Vector6.png');
+  position: absolute;
+  width: 100%;
+  left: 22.4%;
+  height: 100px;
+  top: 95.7%;
+  background-repeat: no-repeat;
+}
+
+.vector12 {
+  background-image: url('./images/Vector6.png');
+  position: absolute;
+  width: 100%;
+  left: 22.4%;
+  height: 100px;
+  top: 93.7%;
+  background-repeat: no-repeat;
+}
+
+.vector11 {
+  position: absolute;
+  top: 74.15%;
+  bottom: -7%;
+  mix-blend-mode: normal;
+  opacity: 0.42;
+  border: 1px solid #BDC7DE;
+}
+
+#l1 {
+  left: 6.10%;
+}
+
+#l2 {
+  left: 12.20%;
+}
+
+#l3 {
+  left: 18.30%;
+}
+
+#l4 {
+  left: 24.40%;
+}
+
+#l5 {
+  left: 30.50%;
+}
+
+#l6 {
+  left: 36.60%;
+}
+
+#l7 {
+  left: 42.70%;
+}
+
+#l8 {
+  left: 48.80%;
+}
+
+.login {
+  color: #FF8A00;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  left: 55%;
+}
+
+#lo {
+  top: 40%;
+}
+
+#si {
+  top: 50%;
+}
+
+#fp {
+  top: 60%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 100%;
+  mix-blend-mode: normal;
+}
+
+#c1 {
+  position: absolute;
+  left: 20.17%;
+  right: 78.34%;
+  top: 80.56%;
+  bottom: 17.2%;
+  background: #5C5C5C;
+  mix-blend-mode: normal;
+  opacity: 0.36;
+}
+
+#c2 {
+  position: absolute;
+  left: 16.24%;
+  right: 80.71%;
+  top: 88.59%;
+  bottom: 6.83%;
+  background: #FFC000;
+  mix-blend-mode: darken;
+  opacity: 0.69;
+}
+
+#c3 {
+  position: absolute;
+  left: 9.19%;
+  right: 88.64%;
+  top: 85.14%;
+  bottom: 11.61%;
+  background: #EA550F;
+  mix-blend-mode: normal;
+  opacity: 0.36;
+}
+
+#c4 {
+  position: absolute;
+  left: -1.46%;
+  right: 98.27%;
+  top: 83%;
+  bottom: 12.22%;
+  background: #E86202;
+  mix-blend-mode: normal;
+  opacity: 0.57;
+}
+
+#c5 {
+  position: absolute;
+  left: 24.85%;
+  right: 73.52%;
+  top: 82.7%;
+  bottom: 14.86%;
+  background: #E86202;
+  mix-blend-mode: darken;
+  opacity: 0.58;
+}
+#c11{
+  position: absolute;
+left: 27.77%;
+right: 68.98%;
+top: 87.37%;
+bottom: 7.75%;
+
+background: #FFC000;
+mix-blend-mode: normal;
+opacity: 0.46;
+}
+#c12{
+  position: absolute;
+left: 35.77%;
+right: 63.22%;
+top: 87.78%;
+bottom: 10.69%;
+
+background: #5C5C5C;
+mix-blend-mode: darken;
+opacity: 0.19;
+}
+#c13{
+  position: absolute;
+left: 38.34%;
+right: 60.03%;
+top: 79.44%;
+bottom: 18.12%;
+
+background: #EA550F;
+mix-blend-mode: normal;
+opacity: 0.36;
+}
+#c14{
+  position: absolute;
+left: 41.05%;
+right: 56.84%;
+top: 77.81%;
+bottom: 19.03%;
+
+background: #FFC000;
+mix-blend-mode: normal;
+opacity: 0.46;
+}
+#c15{
+  position: absolute;
+left: 44.44%;
+right: 53.93%;
+top: 84.63%;
+bottom: 12.93%;
+
+background: #E86202;
+mix-blend-mode: normal;
+opacity: 0.63;
+}
+.vector0{
+  background-image: url('./images/Vector0.png');
+  position: absolute;
+  width: 100%;
+  left: 42%;
+  top: 95%;
+  bottom: -10%;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.input1{
+padding: 10px; 
+position: absolute;
+left: 10.07%;
+right: 61.73%;
+top: 25.4%;
+bottom: 69.1%;
+outline: none;
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+border-radius: 100px;
+}
+.input2{
+  padding: 10px;
+  position: absolute;
+  left: 10.07%;
+  right: 61.73%;
+  top: 31.9%;
+  bottom: 62.7%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+  }
+  .input3{
+    padding: 10px;
+    position: absolute;
+    left: 10.07%;
+    right: 61.73%;
+    top: 38.4%;
+    bottom: 55.7%;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 100px;
+    }
+.input4{
+  padding: 10px;
+  position: absolute;
+  left: 10.07%;
+  right: 61.73%;
+  top: 45.4%;
+  bottom: 48.7%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+  }
+.input5{
+   padding: 10px;
+  position: absolute;
+  left: 10.07%;
+  right: 61.73%;
+  top: 52.4%;
+  bottom: 41.7%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+  }
+.linke {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 27%;
+  top: 60%;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  color: #5C5C5C;
+}
+.custom-button2 {
+  position: absolute;
+  width: 400px;
+  height: 50.95px;
+  left: 14%;
+  top: 66%;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  border-radius: 100px;
+  align-items: center;
+  border-color: #efefef25;
+  /* Add any additional styles as needed */
+}    
+.custom-button3 {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 14%;
+  top: 50%;
+  background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+  border-radius: 100px;
+  align-items: center;
+  border-color: #efefef25;
+  /* Add any additional styles as needed */
+}    
+.linkee {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  left: 27%;
+  top: 43%;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  color: #5C5C5C;
+}
+.inputF {
+  position: absolute;
+  width: 27%;
+  left: 10.07%;
+  right: 61.73%;
+  top: 31%;
+  bottom: 62%;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 18px; 
+}
+.sign3 {
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  left: 18%;
+  top: 25%;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #5C5C5C;
+}
+.logo3 {
+  background-image: url('./images/Farmalabs.png');
+  position: absolute;
+  width: 316px;
+  height: 114px;
+  left: 17%;
+  top: 18%;
+  font-family: 'Allerta Stencil';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  color: #FFAF08;
+}
+.logo4 {
+  background-image: url('./images/izoguern.png');
+  position: absolute;
+  width: 181px;
+  height: 60px;
+  left: 20%;
+  top: 14.5%;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+.button-text3 {
+  width: 50px;
+  height: 10.02px;
+  left: 227px;
+  top: 543.9px;
+  font-family: 'Roboto';
+  font-weight: 70;
+  font-size: 18px;
+  line-height: 10px;
+  color: floralwhite;
+}
+.honey{
+  position: absolute;
+  background-image: url('../src/images/honey.png');
+  width: 100%;
+  left: 4%;
+  height: 100px;
+  top: 90%;
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+  opacity: 0.9;
+}
